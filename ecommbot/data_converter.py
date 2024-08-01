@@ -4,7 +4,7 @@ from langchain_core.documents import Document
 
 
 def dataconverter():
-    product_data=pd.read_csv("C:\\Users\\17328\\Documents\\DATA_SCIENCE\\ECOMMERCE_BOT\\data\\flipkart_product_review.csv")
+    product_data=pd.read_csv("..data\\flipkart_product_review.csv")
 
     data=product_data[["product_title","review"]]
 

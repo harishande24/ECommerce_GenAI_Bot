@@ -4,7 +4,7 @@ setup(
     name="Ecommercebot",
     version="0.0.1",
     author="Harish",
-    author_email="harishdata24@gmail.com",
+    author_email="####",
     packages=find_packages(),
     install_requires=['langchain-astradb','langchain ','langchain-openai','datasets','pypdf','python-dotenv','flask']
 )
